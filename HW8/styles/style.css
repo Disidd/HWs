@@ -12,6 +12,8 @@
   box-sizing: border-box;
 }
 
+/* HEADER START */
+
 .top-header {
   width: 100%;
   background-color:#efefef;
@@ -184,6 +186,10 @@
   color: #FFFFFF;
 }
 
+/* HEADER END  */
+
+/* MAIN START  */
+
 .main {
   background-color: #EFEFEF;
 }
@@ -243,5 +249,65 @@
 .margin-card ~ .card {
   margin-left: 30px;
 }
+
+.subscribe {
+  background-color:#F13C6E;
+  width: 540px;
+  height: 212px;
+}
+
+.third-title {
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.text-subscribe {
+  color: #FFFFFF;
+  padding: 35px 40px;
+}
+
+.email {
+  width: 225px;
+  height: 35px;
+  top: 1605px;
+  left: 445px;
+  gap: 0px;
+  border-radius: 30px;
+  opacity: 0px;
+  border: none;
+  text-align: center;
+}
+
+.img-descr {
+  padding: 36px 45px 36px 0;
+}
+
+.margin-card ~ .subscribe {
+  margin-left: 30px;
+}
+
+.table {
+  width: 100%;
+  height: 357px;
+  background-color: #FFFFFF;
+  border: 1px;
+  border-color: #EFEFEF;
+  text-align: center;
+}
+
+.centred {
+  padding-top: 35px;
+  border: 1px solid;
+  color: #EFEFEF;
+}
+
+/* MAIN END */
+
+
+
+
 
 
