@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url(../fonts/GraphikLCG-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Semibold';
+  src: url(../fonts/GraphikLCG-Semibold.ttf);
+}
+
+.header {
+  background-color: #FFFFFF;
+  padding: 31px 0 24px 0;
+}
+
+.fix-size-container {
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 42px;
+  margin-left: 51px;
+}
+
+.list a {
+  text-decoration: none;
+  font-family:'Regular';
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  margin-left: 305px;
+}
+
+.button .log_in, .try_free {
+  width: 125px;
+  height: 45px;
+  font-family: 'Semibold';
+}
+
+.log_in {
+  background: none;
+}
+
+.try_free {
+  background: #f07f06;
+  color: #FFFFFF;
+  border: none;
+}
+
+.line {
+  border: 1px solid #CCCCCC;
+  ;
+}
