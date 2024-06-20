@@ -17,10 +17,13 @@
   padding: 31px 0 24px 0;
 }
 
+.flexbox {
+  display: flex;
+}
+
 .fix-size-container {
   width: 1290px;
   margin: 0 auto;
-  display: flex;
   align-items: center;
 }
 
@@ -65,4 +68,130 @@
 
 .line {
   border: 1px solid #CCCCCC;
+}
+
+.main {
+  padding-top: 115px;
+}
+.main-title {
+  font-family: 'Semibold';
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: left;
+  margin-bottom: 51px;
+}
+
+.main-information {
+  width: 620px;
+}
+
+.main-text {
+  width: 471px;
+  font-family: 'Regular';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.main-button {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.main-button .try, .book {
+  width: 160px;
+  height: 60px;
+  font-family: 'Semibold';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.try {
+  background: #f07f06;
+  border: none;
+  color:#FFFFFF;
+}
+
+.book {
+  background: none;
+  color: #000000;
+  border: 1px solid black;
+}
+
+.footnote {
+  font-family: 'Regular';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.main-img {
+  width: 750px;
+  height: 520px;
+  display: flex;
+}
+
+.peach {
+  margin: 192px 0 100px 0;
+  background-color: #FF9C7D;
+}
+
+.second-title {
+  justify-content: center;
+  padding: 98px 230px 70px 340px ;
+}
+
+.second-title h2, .text-box h2 {
+  font-family:'Semibold';
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.companies {
+  gap: 103px;
+  align-items: center;
+  padding-bottom: 94px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 250px;
+}
+
+.box-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-box p {
+  font-family:'Regular';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin: 30px 0;
+  width: 491px;
+}
+
+.start {
+  font-family:'Semibold';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+}
+
+.box-information:nth-child(even) {
+  flex-direction: row-reverse;
 }
